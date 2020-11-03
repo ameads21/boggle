@@ -1,0 +1,89 @@
+html, body{
+  background: linear-gradient(to right, rgb(0, 173, 90), black, rgb(0, 173, 90));
+  height: 100%;
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+table{
+  margin: 20px auto;
+  border: 3px solid rgb(0, 173, 90);
+  background-color: rgb(0, 173, 90);
+}
+
+#title{
+  color: red;
+}
+.cell{
+  border: 1px solid rgb(0, 173, 90);
+  color: red;
+  background-color: #101820FF;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Turret Road";
+}
+
+#gameInfo{
+  color:white;
+}
+
+form{
+  color:white;
+}
+
+#inputGuess{
+  background-color: black;
+  color: white;
+}
+
+li{
+  float: left;
+  list-style-type: none;
+  padding: 5px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  margin: 10px 5px;
+  white-space: nowrap;
+}
+
+.messageBlock {
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 25%;
+  display: inline-block;
+}
+
+.success{
+  background-color: green;
+  color: white;
+}
+
+.error{
+  background-color: red;
+  color: white;
+}
+
+.found{
+  background-color: yellow;
+  color: black;
+}
+
+#foundWords{
+  float: right;
+  color: white;
+  overflow: auto;
+  height: 30vh;
+  width: 30vh;
+  border: 1px solid black;
+}
+
+
+.score{
+  color:white;
+}
